@@ -31,6 +31,9 @@ ipykernel = "^6.29"
 ruff = "^0.6"
 
 # Package source repositories
+isort = "^6.1.0"
+flake8 = "^7.3.0"
+black = {version = "^25.9.0", extras = ["jupyter"]}
 [[tool.poetry.source]]
 name = "pypi"
 priority = "primary"
