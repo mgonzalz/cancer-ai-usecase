@@ -1,0 +1,15 @@
+{
+  "img_size": 256,
+  "channels": 3,
+  "color_space": "rgb",
+  "extra_channel": "",
+  "batch_size": 32,
+  "epochs": 30,
+  "base_lr": 0.001,
+  "dropout": 0.4,
+  "augment_strength": "light",
+  "early_stopping_patience": 6,
+  "seed": 42,
+  "data_train_dir": "data/train",
+  "data_test_dir": "data/test"
+}
