@@ -1,0 +1,20 @@
+{
+  "classes": [
+    "Benign",
+    "Malignant"
+  ],
+  "train_counts": {
+    "Benign": 6289,
+    "Malignant": 5590,
+    "TOTAL": 11879
+  },
+  "test_counts": {
+    "Benign": 1000,
+    "Malignant": 1000,
+    "TOTAL": 2000
+  },
+  "img_size": 256,
+  "batch_size": 32,
+  "val_split": 0.2,
+  "seed": 42
+}
