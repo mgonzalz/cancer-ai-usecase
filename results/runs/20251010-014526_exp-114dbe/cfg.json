@@ -10,6 +10,7 @@
   "augment_strength": "light",
   "early_stopping_patience": 6,
   "seed": 42,
-  "data_train_dir": "data/train",
-  "data_test_dir": "data/test"
+  "data_train_dir": "../data/train",
+  "data_test_dir": "../data/test",
+  "data_val_dir": "../data/val"
 }

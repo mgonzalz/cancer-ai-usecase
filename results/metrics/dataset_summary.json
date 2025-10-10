@@ -13,8 +13,12 @@
     "Malignant": 1000,
     "TOTAL": 2000
   },
+  "val_counts": {
+    "Benign": 11,
+    "Malignant": 12,
+    "TOTAL": 23
+  },
   "img_size": 256,
   "batch_size": 32,
-  "val_split": 0.2,
   "seed": 42
 }
