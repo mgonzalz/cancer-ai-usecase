@@ -1,0 +1,19 @@
+# Base configuration file for training
+# This file defines the core hyperparameters,
+# Azure cloud settings, and local paths for the project.
+
+seed: 1337                    # Random seed for reproducibility of results
+img_size: 224                 # Input image size (width and height in pixels)
+batch_size: 32                # Number of samples per training batch
+epochs: 40                    # Number of training epochs (full passes through the dataset)
+learning_rate: 0.0001         # Learning rate for the optimizer (controls step size during training)
+
+azure:                        # Azure cloud storage configuration
+  account_url: ${AZURE_ACCOUNT_URL}     # Azure account URL (fetched from environment variables)
+  container_raw: ${AZURE_CONTAINER_RAW} # Name of the Azure Blob container for raw data
+  sas_token: ${AZURE_SAS_TOKEN}         # Azure Shared Access Signature (SAS) token for authentication
+
+paths:                        # Local directory paths used by the project
+  manifests_dir: "data/manifests"       # Directory for dataset manifest files
+  results_dir: "results"                # Directory where training results and logs are saved
+  cache_dir: ".cache/images"            # Directory for cached images to speed up loading
