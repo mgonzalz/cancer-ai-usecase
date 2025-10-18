@@ -1,0 +1,26 @@
+# ============================================
+# Augmentation profiles configuration file
+# This file defines different image preprocessing and
+# augmentation strategies (profiles) used during training.
+# Each profile specifies how images are transformed before being fed into the model.
+# ============================================
+
+profiles:                         # Collection of available augmentation profiles
+
+  rgb_base:                       # Basic RGB profile (minimal preprocessing)
+    hair_removal: false            # No hair removal applied to images
+    vignette_mask: false           # No vignette or shadow masking
+    color_space: "RGB"             # Use standard RGB color space
+    augment_level: "light"         # Light level of augmentation (minor variations)
+
+  rgb_h:                           # RGB + Hue profile (adds color variation and cleaning)
+    hair_removal: true             # Apply hair removal preprocessing
+    vignette_mask: true            # Apply vignette masking to reduce background noise
+    color_space: "RGB+H"           # RGB color space with Hue component enhancement
+    augment_level: "medium"        # Medium augmentation intensity (rotation, brightness, etc.)
+
+  rgb_s:                           # RGB + Saturation profile (focus on color intensity)
+    hair_removal: true             # Apply hair removal preprocessing
+    vignette_mask: true            # Apply vignette masking for uniform lighting
+    color_space: "RGB+S"           # RGB color space with extra Saturation emphasis
+    augment_level: "medium"        # Medium augmentation intensity (stronger color transformations)
