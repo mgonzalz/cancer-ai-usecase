@@ -1,0 +1,68 @@
+{
+  "counts": {
+    "train": {
+      "Benign": 6289,
+      "Malignant": 5590
+    },
+    "test": {
+      "Benign": 1000,
+      "Malignant": 1000
+    }
+  },
+  "imbalance_ratio": {
+    "train": 1.1250447227191414,
+    "test": 1.0
+  },
+  "aspect_ratio": {
+    "train_p01_p99": [
+      1.0,
+      1.0
+    ],
+    "test_p01_p99": [
+      1.0,
+      1.0
+    ]
+  },
+  "duplicates": {
+    "train_exact": 0,
+    "test_exact": 0
+  },
+  "dark_border": {
+    "sample_mean": 0.12630177514792898,
+    "p75": 0.0032359467455621302,
+    "p90": 0.7294008875739671
+  },
+  "hair_proxy": {
+    "median": 2.845982142857143,
+    "p90": 20.113978794642886
+  },
+  "blur": {
+    "p5_p50_p95": [
+      13.8,
+      54.5,
+      1489.6
+    ]
+  },
+  "color_means_by_label": {
+    "R": {
+      "Benign": 0.778,
+      "Malignant": 0.64
+    },
+    "G": {
+      "Benign": 0.57,
+      "Malignant": 0.521
+    },
+    "B": {
+      "Benign": 0.553,
+      "Malignant": 0.509
+    },
+    "H": {
+      "Benign": 0.47,
+      "Malignant": 0.364
+    },
+    "S": {
+      "Benign": 0.333,
+      "Malignant": 0.244
+    }
+  }
+}

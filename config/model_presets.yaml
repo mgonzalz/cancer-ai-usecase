@@ -1,0 +1,22 @@
+# ============================================
+# Model architecture presets configuration
+# This file defines several model architecture presets used for training experiments.
+# Each preset specifies the number of convolutional layers, dense units,
+# regularization parameters, and optimizer settings.
+# ============================================
+
+presets:                                 # Collection of predefined model architecture presets
+
+  baseline_small:                        # Lightweight baseline model (fast, less complex)
+    conv_blocks: [32, 64, 128]           # Number of filters in each convolutional block
+    dense_units: 128                     # Number of neurons in the fully connected (dense) layer
+    dropout: 0.4                         # Dropout rate to prevent overfitting (40% of neurons dropped)
+    l2_reg: 1e-4                         # L2 regularization strength (controls weight penalty)
+    optimizer: "adam"                    # Optimizer used for training (Adaptive Moment Estimation)
+
+  baseline_medium:                       # Medium-sized model (better performance, higher complexity)
+    conv_blocks: [32, 64, 128, 256]      # One additional convolutional block for deeper feature learning
+    dense_units: 256                     # Larger dense layer for more learning capacity
+    dropout: 0.5                         # Slightly higher dropout to balance added complexity
+    l2_reg: 1e-4                         # Same regularization to prevent overfitting
+    optimizer: "adam"                    # Adam optimizer for adaptive learning

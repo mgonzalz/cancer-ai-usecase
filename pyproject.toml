@@ -1,0 +1,58 @@
+[project]
+name = "cancer-ai-usecase"
+version = "0.1.0"
+description = "Deep learning model for melanoma detection using CNNs (TensorFlow and PyTorch GPU)."
+authors = [
+    {name = "María González",email = "mgonzgarc@myuax.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "tensorflow==2.10.0",      # GPU Native version for Windows (requires system CUDA 11.2)
+    "tensorflow-io-gcs-filesystem==0.31.0",  # PIN for Windows + TF 2.10
+    "numpy==1.26.4",
+    "pillow==11.0.0",
+    # PyTorch + CUDA 12.9 embedded (no system toolkit required)
+    "torch==2.8.0+cu129",
+    "torchvision==0.23.0+cu129",
+    # Other dependencies
+    "opencv-python (<4.11)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "python-dotenv (>=1.1.1,<2.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "azure-storage-blob (>=12.27.0,<13.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = true
+packages = [
+    { include = "src", from = "." }
+]
+
+# Development group (optional)
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+ipykernel = "^6.29"
+ruff = "^0.6"
+
+# Package source repositories
+isort = "^6.1.0"
+flake8 = "^7.3.0"
+black = {version = "^25.9.0", extras = ["jupyter"]}
+[[tool.poetry.source]]
+name = "pypi"
+priority = "primary"
+
+# Official PyTorch CUDA wheels index (cu129)
+[[tool.poetry.source]]
+name = "pytorch-cu129"
+url = "https://download.pytorch.org/whl/cu129"
+priority = "supplemental"
