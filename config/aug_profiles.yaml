@@ -12,15 +12,18 @@ profiles:                         # Collection of available augmentation profile
     vignette_mask: false           # No vignette or shadow masking
     color_space: "RGB"             # Use standard RGB color space
     augment_level: "light"         # Light level of augmentation (minor variations)
+    segment: true                  # Apply segmentation: OTSU + Morphological operations
 
   rgb_h:                           # RGB + Hue profile (adds color variation and cleaning)
     hair_removal: true             # Apply hair removal preprocessing
     vignette_mask: true            # Apply vignette masking to reduce background noise
     color_space: "RGB+H"           # RGB color space with Hue component enhancement
-    augment_level: "medium"        # Medium augmentation intensity (rotation, brightness, etc.)
+    augment_level: "light"         # Light level of augmentation (minor variations)
+    segment: true                  # Apply segmentation: OTSU + Morphological operations
 
-  rgb_s:                           # RGB + Saturation profile (focus on color intensity)
+  rgb_mask:                        # RGB + Mask profile (Focus on shape and structure)
     hair_removal: true             # Apply hair removal preprocessing
     vignette_mask: true            # Apply vignette masking for uniform lighting
-    color_space: "RGB+S"           # RGB color space with extra Saturation emphasis
-    augment_level: "medium"        # Medium augmentation intensity (stronger color transformations)
+    color_space: "RGB"             # RGB color space applying mask emphasis
+    augment_level: "light"         # Light level of augmentation (minor variations)
+    segment: true                  # Apply segmentation: OTSU + Morphological operations
