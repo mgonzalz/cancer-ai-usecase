@@ -178,7 +178,7 @@ def process_one(path_img: Path, prof: dict, split: str) -> dict:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--img-root", default="./.cache/images/original")
-    ap.add_argument("--split", default="train", choices=["train", "test"])
+    ap.add_argument("--split", default="train", choices=["train", "test", "external_val"])
     ap.add_argument("--profiles-yaml", default="config/aug_profiles.yaml")
     ap.add_argument(
         "--profile",
