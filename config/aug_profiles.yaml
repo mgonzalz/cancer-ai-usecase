@@ -5,25 +5,28 @@
 # Each profile specifies how images are transformed before being fed into the model.
 # ============================================
 
-profiles:                         # Collection of available augmentation profiles
+profiles:                          # Collection of available augmentation profiles
 
-  rgb_base:                       # Basic RGB profile (minimal preprocessing)
-    hair_removal: false            # No hair removal applied to images
-    vignette_mask: false           # No vignette or shadow masking
+  rgb_base:                        # Basic RGB profile (minimal preprocessing)
+    hair_removal: true             # Always perform hair removal
+    vignette_mask: true            # Vignette masking to reduce border artifacts
     color_space: "RGB"             # Use standard RGB color space
     augment_level: "light"         # Light level of augmentation (minor variations)
-    segment: true                  # Apply segmentation: OTSU + Morphological operations
+    segment: true                  # Segment for lesion-preserved augmentation
+    save_npy4: false               # No .npy [H,W,4] (RGB) output
 
   rgb_h:                           # RGB + Hue profile (adds color variation and cleaning)
-    hair_removal: true             # Apply hair removal preprocessing
-    vignette_mask: true            # Apply vignette masking to reduce background noise
+    hair_removal: true             # Always perform hair removal
+    vignette_mask: true            # Vignette masking to reduce border artifacts
     color_space: "RGB+H"           # RGB color space with Hue component enhancement
     augment_level: "light"         # Light level of augmentation (minor variations)
-    segment: true                  # Apply segmentation: OTSU + Morphological operations
+    segment: true                  # Segment for lesion-preserved augmentation
+    save_npy4: true                # Load .npy [H,W,4] (RGB+H)
 
-  rgb_mask:                        # RGB + Mask profile (Focus on shape and structure)
-    hair_removal: true             # Apply hair removal preprocessing
-    vignette_mask: true            # Apply vignette masking for uniform lighting
-    color_space: "RGB"             # RGB color space applying mask emphasis
+  rgb_s:                           # RGB + Saturation profile (adds color variation and cleaning)
+    hair_removal: true             # Always perform hair removal
+    vignette_mask: true            # Vignette masking to reduce border artifacts
+    color_space: "RGB+S"           # RGB color space with Saturation component enhancement
     augment_level: "light"         # Light level of augmentation (minor variations)
-    segment: true                  # Apply segmentation: OTSU + Morphological operations
+    segment: true                  # Segment for lesion-preserved augmentation
+    save_npy4: true                # Load .npy [H,W,4] (RGB+S)
