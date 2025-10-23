@@ -139,3 +139,34 @@ def four_panel(
     canvas.paste(img_c, (pad * 3 + 2 * w, y))
     canvas.paste(img_d, (pad * 4 + 3 * w, y))
     return canvas
+
+def _title_center(draw: ImageDraw.ImageDraw, x: int, W: int, y: int, text: str, font):
+    bbox = draw.textbbox((0, 0), text, font=font)
+    tw = bbox[2] - bbox[0]
+    draw.text((x + (W - tw)//2, y), text, fill=(240, 240, 240), font=font)
+
+def six_panel(img1: Image.Image, img2: Image.Image, img3: Image.Image,
+                      img4: Image.Image, img5: Image.Image, img6: Image.Image,
+                      titles=("Original","Viñeteado (overlay)","Viñeta corregida",
+                              "Máscara de lesión","Máscara de pelo","Final (lesion-preserved)")) -> Image.Image:
+    W, H = img1.size
+    pad = 10
+    topbar = 50
+    cols, rows = 3, 2
+    canvas = Image.new("RGB", (cols*W + (cols+1)*pad, rows*H + (rows+1)*pad + topbar), (18, 18, 18))
+    font = ImageFont.load_default()
+    draw = ImageDraw.Draw(canvas)
+
+    tiles = [img1, img2, img3, img4, img5, img6]
+    x = pad
+    y = pad + topbar
+    for i, pil in enumerate(tiles):
+        if pil.size != (W, H):
+            pil = pil.resize((W, H))
+        canvas.paste(pil, (x, y))
+        _title_center(draw, x, W, y-30, titles[i], font)
+        x += W + pad
+        if (i+1) % 3 == 0:
+            x = pad
+            y += H + pad
+    return canvas

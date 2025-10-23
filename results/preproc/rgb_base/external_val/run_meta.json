@@ -1,6 +1,6 @@
 [
   {
-    "path": "data\\external_val\\Benign\\0001dbcdb2594673a53861f18f7268f8_670465432.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\0001dbcdb2594673a53861f18f7268f8_670465432.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\0001dbcdb2594673a53861f18f7268f8_670465432.png",
@@ -11,7 +11,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000000.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000000.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000000.png",
@@ -22,7 +22,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000020.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000020.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000020.png",
@@ -33,7 +33,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000065.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000065.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000065.png",
@@ -44,7 +44,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000075.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000075.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000075.png",
@@ -55,7 +55,7 @@
     "dark_ratio": 0.8988625883799569
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000093.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000093.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000093.png",
@@ -66,7 +66,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000110.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000110.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000110.png",
@@ -77,7 +77,7 @@
     "dark_ratio": 0.9579375848032564
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000124.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000124.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000124.png",
@@ -88,7 +88,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000211.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000211.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000211.png",
@@ -99,7 +99,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000217.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000217.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000217.png",
@@ -110,7 +110,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000220.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000220.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000220.png",
@@ -121,7 +121,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000229.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000229.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000229.png",
@@ -132,7 +132,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000232.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000232.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000232.png",
@@ -143,7 +143,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000353.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000353.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000353.png",
@@ -154,7 +154,7 @@
     "dark_ratio": 0.9129070223617105
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000374.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000374.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000374.png",
@@ -165,7 +165,7 @@
     "dark_ratio": 0.9070223617104747
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000453.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000453.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000453.png",
@@ -176,7 +176,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000460.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000460.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000460.png",
@@ -187,7 +187,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000488.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000488.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000488.png",
@@ -198,7 +198,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000536.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000536.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000536.png",
@@ -209,7 +209,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000686.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000686.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000686.png",
@@ -220,7 +220,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0000855.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0000855.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0000855.png",
@@ -231,7 +231,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Benign\\ISIC_0002099.jpg",
+    "path": ".cache\\images\\original\\external_val\\Benign\\ISIC_0002099.jpg",
     "label": "Benign",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Benign\\ISIC_0002099.png",
@@ -242,7 +242,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000029.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000029.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000029.png",
@@ -253,7 +253,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000148.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000148.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000148.png",
@@ -264,7 +264,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000150.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000150.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000150.png",
@@ -275,7 +275,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000159.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000159.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000159.png",
@@ -286,7 +286,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000166.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000166.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000166.png",
@@ -297,7 +297,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000402.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000402.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000402.png",
@@ -308,7 +308,7 @@
     "dark_ratio": 0.8045007032348804
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000444.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000444.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000444.png",
@@ -319,7 +319,7 @@
     "dark_ratio": 0.6627112549442646
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000482.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000482.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000482.png",
@@ -330,7 +330,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000550.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000550.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000550.png",
@@ -341,7 +341,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0000552.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0000552.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0000552.png",
@@ -352,7 +352,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0001102.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0001102.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0001102.png",
@@ -363,7 +363,7 @@
     "dark_ratio": 0.7543859649122807
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0001140.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0001140.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0001140.png",
@@ -374,7 +374,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0001142.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0001142.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0001142.png",
@@ -385,7 +385,7 @@
     "dark_ratio": 0.9317156968005154
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0009882.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0009882.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0009882.png",
@@ -396,7 +396,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0009950.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0009950.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0009950.png",
@@ -407,7 +407,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0010023.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0010023.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0010023.png",
@@ -418,7 +418,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0011957.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0011957.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0011957.png",
@@ -429,7 +429,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0012909.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0012909.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0012909.png",
@@ -440,7 +440,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0013277.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0013277.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0013277.png",
@@ -451,7 +451,7 @@
     "dark_ratio": 0.0
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0013429.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0013429.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0013429.png",
@@ -462,7 +462,7 @@
     "dark_ratio": 0.5087108013937283
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0013457.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0013457.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0013457.png",
@@ -473,7 +473,7 @@
     "dark_ratio": 0.5248618784530387
   },
   {
-    "path": "data\\external_val\\Malignant\\ISIC_0013460.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\ISIC_0013460.jpg",
     "label": "Malignant",
     "split": "external_val",
     "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\ISIC_0013460.png",
@@ -484,13 +484,13 @@
     "dark_ratio": 0.5266055045871559
   },
   {
-    "path": "data\\external_val\\Malignant\\melanoma-1.jpg",
+    "path": ".cache\\images\\original\\external_val\\Malignant\\Melanoma (1).jpg",
     "label": "Malignant",
     "split": "external_val",
-    "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\melanoma-1.png",
+    "out_png": ".cache\\images\\processed\\rgb_base\\external_val\\Malignant\\Melanoma (1).png",
     "has_npy4": false,
     "color_space": "RGB",
-    "hair_cov": 0.6104711415816326,
+    "hair_cov": 0.7501395089285714,
     "vignette_detected": false,
     "dark_ratio": 0.0
   }
