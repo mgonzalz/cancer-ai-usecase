@@ -23,7 +23,7 @@ def list_images(root: str) -> list[tuple[str, str, str]]:
     """
     root = pathlib.Path(root)
     out = []
-    for split in ("train", "test"):
+    for split in ("train", "test", "external_val"):
         for label in ("Benign", "Malignant"):
             p = root / split / label
             if not p.exists():

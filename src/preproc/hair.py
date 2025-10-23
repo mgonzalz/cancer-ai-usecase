@@ -22,7 +22,7 @@ import numpy as np
 
 def remove_hair(
     rgb: np.ndarray,
-    kernel_size: int = 9,
+    kernel_size: int = 6,
     bh_threshold: int = 10,
     inpaint_radius: int = 5,
     inpaint_method: Literal["telea", "ns"] = "telea",
@@ -56,14 +56,13 @@ def remove_hair(
     return clean_rgb, hair_mask, hair_coverage
 
 
-def compose_lesion_preserved(
-    orig_rgb: np.ndarray, hair_clean_rgb: np.ndarray, lesion_mask: np.ndarray
-) -> np.ndarray:
+
+def compose_lesion_preserved(orig_rgb: np.ndarray, hair_clean_rgb: np.ndarray, lesion_mask: np.ndarray) -> np.ndarray:
     """
     Compose a final image that preserves the lesion from the ORIGINAL image
     and uses the hair-removed image for the background.
-    - orig_rgb: uint8 (H,W,3), original (ya con vignette aplicado si procede)
-    - hair_clean_rgb: uint8 (H,W,3), salida de remove_hair
+    - orig_rgb: uint8 (H,W,3), original (with vignette applied if applicable)
+    - hair_clean_rgb: uint8 (H,W,3), output of remove_hair
     - lesion_mask: uint8 (H,W), 0/255
     Returns: uint8 (H,W,3)
     """

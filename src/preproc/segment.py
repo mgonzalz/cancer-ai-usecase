@@ -63,22 +63,3 @@ def segment_lesion(rgb: np.ndarray, size=(224, 224)) -> Tuple[np.ndarray, np.nda
 
     lesion_rgb = cv2.bitwise_and(rgb, rgb, mask=mask)
     return mask, lesion_rgb
-
-
-def clean_mask_with_hair(mask: np.ndarray, hair_mask: np.ndarray) -> np.ndarray:
-    """
-    Subtract thin hair filaments and reconnect the lesion with morphology.
-    Args:
-        - mask: uint8 (H,W) 0/255
-        - hair_mask: uint8 (H,W) 0/255
-    Returns:
-        - clean_mask: uint8 (H,W) 0/255
-    """
-    mask = mask.copy()
-    # Subtract hair (hair_mask is 0/255)
-    mask[hair_mask > 0] = 0
-    # Close small gaps and smooth border
-    kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
-    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, kernel, iterations=1)
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, kernel, iterations=1)
-    return mask
