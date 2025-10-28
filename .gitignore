@@ -1,3 +1,9 @@
+# MLOps manual: Model versioning files
+runs/
+
+# Models
+*.keras
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
