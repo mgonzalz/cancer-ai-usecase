@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+body, .stApp {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+h1, h2, h3 {
+    color: #0b5394; /* elegant blue */
+    font-weight: 600;
+}
+
+.stButton > button {
+    background-color: #0b5394;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    padding: 0.6em 1.2em;
+}
+
+.stButton > button:hover {
+    background-color: #083e6e;
+}
+
+div[data-testid="stFileUploader"] {
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    border: 2px dashed #0b5394;
+}
+
+img {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    margin: 0.4em;
+}

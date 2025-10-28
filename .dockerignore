@@ -1,0 +1,73 @@
+# General Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+*.swp
+*.log
+*.tmp
+
+# Git and IDEs
+.git/
+.gitignore
+.env
+.venv/
+venv/
+.env.local
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Cache and outputs
+.cache/
+outputs/
+runs/
+logs/
+__results__/
+checkpoints/
+wandb/
+mlruns/
+tmp/
+.DS_Store
+
+# Data folders
+data/
+datasets/
+external/
+raw/
+images/
+uploads/
+input/
+downloads/
+
+# Model files
+results/runs/*/models/*.h5
+results/runs/*/models/*.tflite
+results/runs/*/models/*.pt
+results/runs/*/models/*.ckpt
+
+# Documents and datasets
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.zip
+*.tar.gz
+*.json
+*.yaml
+*.yml
+
+# Notebooks and EDA
+notebooks/
+eda_report.json
+
+# Config and scripts
+Makefile
+README.md
+Dockerfile
+requirements.txt
+
+# === Hugging Face y Streamlit ===
+huggingface/
+.streamlit/

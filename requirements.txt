@@ -1,0 +1,15 @@
+# --- Web UI ---
+streamlit==1.36.0
+
+# --- ML stack (compatibles entre sí) ---
+tensorflow-cpu==2.12.1
+numpy>=1.23.5,<2.0
+protobuf>=3.20.3,<5
+
+# --- Utils / preproc ---
+pillow
+opencv-python-headless
+matplotlib
+pyyaml
+scikit-image
+huggingface_hub>=0.24
